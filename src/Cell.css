@@ -1,0 +1,18 @@
+.Cell {
+  height: 100px;
+  width: 100px;
+  background-color: #201c1c;
+  cursor: pointer;
+}
+
+.Cell:not(.Cell-lit):hover{
+  box-shadow: inset 0px 0px 14px 0px #ffffff;
+}
+
+.Cell-lit {
+  background-color: white;
+}
+
+.Cell-lit:hover{
+  box-shadow: inset 0px 0px 14px 0px #4c4c4c;
+}
